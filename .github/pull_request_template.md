@@ -1,5 +1,5 @@
 <!--
-WELCOME TO OUR PULL REQUEST TEMPLATE (credit to https://github.com/hack4impact-uiuc/life-after-hate/)! :partyparrot:
+WELCOME TO OUR PULL REQUEST TEMPLATE! :partyparrot:
 Not all sections apply, feel free to delete as appropriate.
 -->
 
@@ -11,18 +11,25 @@ Not all sections apply, feel free to delete as appropriate.
 :no_entry_sign: Do not merge
 -->
 
-## Description :star2:
+## Description
 
 <!--
 A few sentences describing the overall goals of the pull request's commits.
-INCLUDE A SCREENSHOT IF THIS IS FRONTEND
 -->
 
-Fixes #number
+Fixes #<number>
 
-## TODOs :star:
+## Todos
 
 <!--
 - [ ] Tests
 - [ ] Documentation
+-->
+
+## Screenshots
+
+<!--
+Mac OS Screenshots: ctrl + shift + cmd + 3 (entire screen) or 4 (selection of screen), then paste in editor
+Mac OS GIFs: Try using Kap
+Linux/Windows: Ctrl + Alt + PrintScreen (of a window) or Ctrl + Shift + PrintScreen (selection of screen), then paste in editor
 -->
