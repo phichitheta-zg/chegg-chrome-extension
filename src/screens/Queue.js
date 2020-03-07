@@ -1,4 +1,7 @@
 import React from "react";
+import LoginButton from "../components/LoginButton";
+import QueueTab from "../components/QueueTab";
+import QueueButton from "../components/QueueButton";
 
 export default class Queue extends React.Component {
   constructor(props) {
@@ -8,7 +11,8 @@ export default class Queue extends React.Component {
         {
           name: "Carley Peldiak",
           loggedIn: true
-        }
+        },
+        { name: null, loggedIn: null }
       ],
       queue: [
         {
@@ -27,49 +31,26 @@ export default class Queue extends React.Component {
     return (
       <div
         style={{
-          flex: 1,
+          display: "flex",
+          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
           height: "100%",
           width: "100%",
+          overflowY: "scroll",
           padding: 10
         }}
       >
+        <p style={{ marginTop: 100 }}> Currently Online </p>
         {this.state.onlineUsers.map(user => (
-          <div
-            style={{
-              flex: 1,
-              width: "200px",
-              height: "30px",
-              backgroundColor: "rgba(122, 122, 122, 0.1)",
-              border: "none",
-              borderRadius: "5px",
-              textAlign: "center",
-              alignItems: "center",
-              fontSize: "13px"
-            }}
-          >
-            <p>{user.name}</p>
-          </div>
+          <LoginButton user={user} />
         ))}
 
+        <p> Up Next </p>
         {this.state.queue.map(user => (
-          <div
-            style={{
-              flex: 1,
-              width: "200px",
-              height: "30px",
-              backgroundColor: "rgba(122, 122, 122, 0.1)",
-              border: "none",
-              borderRadius: "5px",
-              textAlign: "center",
-              alignItems: "center",
-              fontSize: "13px"
-            }}
-          >
-            <p>{user.name}</p>
-          </div>
+          <QueueTab user={user} />
         ))}
+        <QueueButton />
       </div>
     );
   }
