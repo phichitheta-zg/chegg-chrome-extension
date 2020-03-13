@@ -1,17 +1,15 @@
 <h1 align="center">
   <br>
-  <a href="https://www.pct-illinois.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Life_After_Hate_logo.png" alt="PCT Homework Helper" width="200"></a>
+  <a href="https://www.pct-illinois.com/"><img src="./src/assets/PCT-logo.png" alt="Phi Chi Theta Zeta Gamma Logo" width="200"></a>
   <br/>
   PCT Homework Helper
   </br>
 </h1>
 
-<h4 align="center">A <a href="https://github.com/phichitheta-zg/" target="_blank">Phi Chi Theta Zeta Gamma</a> project.</h4>
-
+<h4 align="center">A <a href="https://github.com/phichitheta-zg/" target="_blank">Phi Chi Theta - Zeta Gamma</a> PCTech project.</h4>
 <p align="center">
-
-<!-- <img src="https://github.com/hack4impact-uiuc/life-after-hate/workflows/Testing/badge.svg">
-<img src="https://codecov.io/gh/hack4impact-uiuc/life-after-hate/branch/master/graph/badge.svg"> -->
+<img src="https://img.shields.io/circleci/build/github/phichitheta-zg/pct-homework-helper/master?style=shield">
+    <img src="https://img.shields.io/badge/license-MIT-blue?style=shield">
 </p>
 
 <p align="center">
@@ -33,121 +31,75 @@ Instructions coming soon!
 
 ## Download
 
+Download [PCT Homework Helper](https://chrome.google.com/webstore/category/extensions) from the Chrome Web Store!
+
 ## Team
 
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://www.linkedin.com/in/alan-fang/"
+      <a href="https://www.linkedin.com/in/zachary-plumley/"
         ><img
-          src="./assets/team/alan.jpeg"
+          src="./src/assets/team/zachary-plumley.jpg"
           width="75px;"
-          alt="Alan Fang"
-        /><br /><b>Alan Fang</b></a
-      ><br /><sub>Product Manager</sub>
+          alt="Zachary Plumley"
+        /><br /><b>Zachary Plumley</b></a
+      ><br /><sub>Project Manager</sub>
     </td>
     <td align="center">
-      <a href="https://joshbyster.com"
+      <a href="https://www.linkedin.com/in/lamgtran/"
         ><img
-          src="./assets/team/joshbyster.jpeg"
+          src="./src/assets/team/lam-tran.jpg"
           width="75px;"
-          alt="Josh Byster"
-        /><br /><b>Josh Byster</b></a
+          alt="Lam Tran"
+        /><br /><b>Lam Tran</b></a
       ><br /><sub>Technical Lead</sub>
     </td>
     <td align="center">
-      <a href="https://www.evaneckels.com"
+      <a href="https://www.linkedin.com/in/katiebondi/"
         ><img
-          src="./assets/team/evan.png"
+          src="./src/assets/team/katie-bondi.jpg"
           width="75px;"
-          alt="Evan Eckels"
-        /><br /><b>Evan Eckels</b></a
+          alt="Katie Bondi"
+        /><br /><b>Katie Bondi</b></a
+      ><br /><sub>Technology Consultant</sub>
+    </td>
+     <td align="center">
+      <a href="https://www.linkedin.com/in/davi-oliva/"
+        ><img
+          src="./src/assets/team/davi-oliva.jpg"
+          width="75px;"
+          alt="Davi Oliva"
+        /><br /><b>Davi Oliva</b></a
       ><br /><sub>Product Designer</sub>
     </td>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/alicesf2/"
-        ><img
-          src="./assets/team/alice.jpeg"
-          width="75px;"
-          alt="Alice Fang"
-        /><br /><b>Alice Fang</b></a
-      ><br /><sub>Software Developer</sub>
-    </td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/rebeccaxun/"
-        ><img
-          src="./assets/team/rebecca.jpeg"
-          width="75px;"
-          alt="Rebecca Xun"
-        /><br /><b>Rebecca Xun</b></a
-      ><br /><sub>Software Developer</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/laurenho025"
-        ><img
-          src="./assets/team/lauren.jpeg"
-          width="75px;"
-          alt="Lauren Ho"
-        /><br /><b>Lauren Ho</b></a
-      ><br /><sub>Software Developer</sub>
-    </td>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/genewang0/"
-        ><img
-          src="./assets/team/gene.jpeg"
-          width="75px;"
-          alt="Gene Wang"
-        /><br /><b>Gene Wang</b></a
-      ><br /><sub>Software Developer</sub>
-    </td>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/albertcao00/"
-        ><img
-          src="./assets/team/albert.jpg"
-          width="75px;"
-          alt="Albert Cao"
-        /><br /><b>Albert Cao</b></a
-      ><br /><sub>Software Developer</sub>
-    </td>
   </tr>
   <tr>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/eugenia-chen-3aa251131/"
+  <td align="center">
+      <a href="https://www.linkedin.com/in/jack-lanser/"
         ><img
-          src="./assets/team/eugenia.jpg"
+          src="./src/assets/team/jack-lanser.jpg"
           width="75px;"
-          alt="Eugenia Chen"
-        /><br /><b>Eugenia Chen</b></a
+          alt="Jack Lanser"
+        /><br /><b>Jack Lanser</b></a
       ><br /><sub>Software Developer</sub>
     </td>
     <td align="center">
-      <a href="https://www.linkedin.com/in/angad-garg/"
+      <a href="https://www.linkedin.com/in/devika-prasad/"
         ><img
-          src="./assets/team/angad.jpeg"
+          src="./src/assets/team/devika-prasad.jpg"
           width="75px;"
-          alt="Angad Garg"
-        /><br /><b>Angad Garg</b></a
+          alt="Devika Prasad"
+        /><br /><b>Devika Prasad</b></a
       ><br /><sub>Software Developer</sub>
     </td>
     <td align="center">
-      <a href="https://www.linkedin.com/in/aryn/"
+      <a href="https://www.linkedin.com/in/jackpenrose/"
         ><img
-          src="./assets/team/aryn.jpg"
+          src="./src/assets/team/jack-penrose.jpg"
           width="75px;"
-          alt="Aryn Harmon"
-        /><br /><b>Aryn Harmon</b></a
-      ><br /><sub>Software Developer</sub>
-    </td>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/josh-burke/"
-        ><img
-          src="./assets/team/joshburke.jpg"
-          width="75px;"
-          alt="Josh Burke"
-        /><br /><b>Josh Burke</b></a
+          alt="Jack Penrose"
+        /><br /><b>Jack Penrose</b></a
       ><br /><sub>Software Developer</sub>
     </td>
   </tr>
@@ -165,75 +117,8 @@ MIT
 
 ---
 
-> [lifeafterhate.org](https://www.lifeafterhate.org) &nbsp;&middot;&nbsp;
-> GitHub [@hack4impact-uiuc](https://github.com/hack4impact-uiuc/) &nbsp;&middot;&nbsp;
-> Website [uiuc.hack4impact.org](https://uiuc.hack4impact.org)
+> GitHub [@phichitheta-zg](https://github.com/phichitheta-zg/) &nbsp;&middot;&nbsp;
+> Website [pct-illinois.com](https://www.pct-illinois.com)
+> Configuration set-up based off: https://github.com/hack4impact-uiuc/life-after-hate/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
