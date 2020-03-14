@@ -1,8 +1,8 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Home from "../src/screens/Home.js";
-require("dotenv").config();
+import React from 'react';
+import './App.css';
+import Home from './screens/Home';
+
+require('dotenv').config();
 
 function App() {
   return (
