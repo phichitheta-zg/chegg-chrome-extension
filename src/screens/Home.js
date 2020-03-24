@@ -1,6 +1,8 @@
-import React from "react";
-import Login from "./Login";
+import React from 'react';
+import Queue from './Queue';
 
-const Home = <Login />;
+function Home() {
+  return <Queue />;
+}
 
 export default Home;

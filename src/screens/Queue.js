@@ -1,6 +1,6 @@
 import React from 'react';
 import LoginButton from '../components/LoginButton';
-import QueueTab from '../components/QueueTab';
+import QueueTab from '../components/QueueTab/QueueTab';
 import QueueButton from '../components/QueueButton';
 
 export default class Queue extends React.Component {
