@@ -1,6 +1,7 @@
 import React from 'react';
 import PCTLogo from '../assets/PCT-logo.png';
 
+// Example of inline styling
 export default class Login extends React.Component {
   render() {
     return (

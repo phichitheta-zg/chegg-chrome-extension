@@ -1,24 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const QueueButton = (
-  <div
-    style={{
-      display: 'flex',
-      width: '200px',
-      height: '30px',
-      backgroundColor: 'rgba(122, 122, 122, 0.1)',
-      border: 'none',
-      borderRadius: '5px',
-      color: 'grey',
-      textAlign: 'center',
-      justifyContent: 'center',
-      alignItems: 'center',
-      fontSize: '20px',
-      marginBottom: 10,
-    }}
-  >
-    <p>+</p>
-  </div>
-);
+// Example of inline styling and functional components + hooks
+function QueueButton() {
+  const [usersInQueue, addUser] = useState(0);
+
+  return (
+    <button
+      type="button"
+      onClick={() => {
+        addUser(usersInQueue + 1);
+        // console.log(`${usersInQueue} users in the queue!`);
+      }}
+      style={{
+        display: 'flex',
+        width: '200px',
+        height: '30px',
+        backgroundColor: 'rgba(122, 122, 122, 0.1)',
+        border: 'none',
+        borderRadius: '5px',
+        color: 'grey',
+        textAlign: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: '20px',
+        marginBottom: 10,
+      }}
+    >
+      +
+    </button>
+  );
+}
 
 export default QueueButton;

@@ -1,0 +1,13 @@
+.QueueTab {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  background-color: #fcdd71;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
