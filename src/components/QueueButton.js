@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import  styles from './LoginButton.js';
+import  styles from './LoginButton';
 
 // Example of inline styling and functional components + hooks
 function QueueButton() {
