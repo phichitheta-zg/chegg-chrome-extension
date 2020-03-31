@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import  styles from './LoginButton.js';
 
 // Example of inline styling and functional components + hooks
 function QueueButton() {
@@ -9,22 +10,11 @@ function QueueButton() {
       type="button"
       onClick={() => {
         addUser(usersInQueue + 1);
-        // console.log(`${usersInQueue} users in the queue!`);
       }}
-      style={{
-        display: 'flex',
-        width: '200px',
-        height: '30px',
-        backgroundColor: 'rgba(122, 122, 122, 0.1)',
-        border: 'none',
-        borderRadius: '5px',
-        color: 'grey',
-        textAlign: 'center',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: '20px',
-        marginBottom: 10,
-      }}
+    style = {{ 
+      ...styles.Button,
+      backgroundColor: 'rgba(122, 122, 122, 0.1)',
+    }}
     >
       +
     </button>
