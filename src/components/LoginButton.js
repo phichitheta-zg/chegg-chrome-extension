@@ -1,5 +1,5 @@
 import React from "react";
-
+import { openTab } from "../background/background.js";
 // Example of css in js
 // Notice any similarities in the styles? If styles overlap, you can combine them!
 // ex.
@@ -54,13 +54,6 @@ const freeUserButton = (
     <p> Log in now! </p>
   </div>
 );
-
-const openTab = () => {
-  chrome.tabs.create({
-    url: "https://www.chegg.com/auth?action=login",
-    active: true
-  });
-};
 
 const LoginButton = props => {
   if (props.user.name) return onlineUserButton(props);
