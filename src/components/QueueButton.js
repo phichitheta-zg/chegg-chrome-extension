@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-// Example of inline styling and functional components + hooks
+// TODO: Remove later, DEPRECATED
 function QueueButton() {
   const [usersInQueue, addUser] = useState(0);
 

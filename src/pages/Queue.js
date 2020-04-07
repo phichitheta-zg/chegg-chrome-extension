@@ -3,6 +3,8 @@ import LoginButton from '../components/LoginButton';
 import QueueTab from '../components/QueueTab/QueueTab';
 import QueueButton from '../components/QueueButton';
 
+// TODO: Remove later, DEPRECATED
+
 export default class Queue extends React.Component {
   constructor(props) {
     super(props);

@@ -1,8 +1,8 @@
 import React from 'react';
 import PCTLogo from '../assets/PCT-logo.png';
 
-// Example of inline styling
-export default class Login extends React.Component {
+// TODO: Remove later, DEPRECATED
+export default class User extends React.Component {
   render() {
     return (
       <div
@@ -16,20 +16,19 @@ export default class Login extends React.Component {
         }}
       >
         <img src={PCTLogo} style={{ height: 100 }} resizeMode="contain" alt="logo" />
-        <p>Welcome to Phi Chi Theta! </p>
+        <p>Who is this? </p>
         <input
-          type="password"
-          name="password"
-          placeholder="password"
+          type="text"
+          name="username"
+          placeholder="username"
           className="inputs"
           ref={(input) => {
-            this.passwordInput = input;
+            this.usernameInput = input;
           }}
           style={{
             width: '200px',
             height: '25px',
-            backgroundColor: '#7C899D',
-            color: 'white',
+            backgroundColor: 'rgba(122, 122, 122, 0.1)',
             border: 'none',
             borderRadius: '5px',
             textAlign: 'center',
