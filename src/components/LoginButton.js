@@ -49,10 +49,18 @@ const freeUserButton = (
       ...styles.Button,
       backgroundColor: "rgba(133, 250, 98, 0.769)"
     }}
+    onClick={openTab()}
   >
     <p> Log in now! </p>
   </div>
 );
+
+const openTab = () => {
+  chrome.tabs.create({
+    url: "https://www.chegg.com/auth?action=login",
+    active: true
+  });
+};
 
 const LoginButton = props => {
   if (props.user.name) return onlineUserButton(props);
