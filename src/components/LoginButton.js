@@ -30,11 +30,11 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     fontSize: "13px",
-    marginBottom: 10
-  }
+    marginBottom: 10,
+  },
 };
 
-const onlineUserButton = props => {
+const onlineUserButton = (props) => {
   const { user } = props;
   return (
     <div style={styles.Button}>
@@ -47,7 +47,7 @@ const freeUserButton = (
   <div
     style={{
       ...styles.Button,
-      backgroundColor: "rgba(133, 250, 98, 0.769)"
+      backgroundColor: "rgba(133, 250, 98, 0.769)",
     }}
     onClick={openTab()}
   >
@@ -55,7 +55,7 @@ const freeUserButton = (
   </div>
 );
 
-const LoginButton = props => {
+const LoginButton = (props) => {
   if (props.user.name) return onlineUserButton(props);
   return freeUserButton;
 };
