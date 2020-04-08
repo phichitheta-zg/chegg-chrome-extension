@@ -1,8 +1,8 @@
-import React from "react";
-import "./App.css";
-import ExamplePage from "./pages/ExamplePage/ExamplePage";
+import React from 'react';
+import './App.css';
+import ExamplePage from './pages/ExamplePage/ExamplePage';
 
-require("dotenv").config();
+require('dotenv').config();
 
 function App() {
   return (
