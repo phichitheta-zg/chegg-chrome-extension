@@ -3,14 +3,15 @@
 export const openTab = () => {
   console.log("Login Button (div) clicked!");
   chrome.tabs.create({
+    windowID = 1,
     url: "https://www.chegg.com/auth?action=login",
     active: true,
+
   });
 };
 
 export const closeCurrentTab = () => {
-  console.log("Log out completed, close Egg tab");
-  chrome.tabs.getCurrent(function(tab) {
-    chrome.tabs.remove(tab.id, function() { });
-  });
+  console.log("Timer ran out, close Egg tab");
+  chrome.tabs.remove(tab.id, function() { });
+  
 };
