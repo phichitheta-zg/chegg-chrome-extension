@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import PCTLogo from '../../assets/PCT-logo.png';
-import './LoginPage.css';
+import './Login.css';
 
-function LoginPage() {
+function Login() {
   const [password, setPassword] = useState();
 
   function handleChange(event) {
@@ -11,10 +11,10 @@ function LoginPage() {
   }
 
   return (
-    <div className="LoginPage__container">
-      <img src={PCTLogo} className="LoginPage__login-logo" alt="logo" />
-      <div className="LoginPage__flex">Welcome to Phi Chi Theta!</div>
-      <div className="LoginPage__input-container">
+    <div className="Login__container">
+      <img src={PCTLogo} className="Login__login-logo" alt="logo" />
+      <div className="Login__flex">Welcome to Phi Chi Theta!</div>
+      <div className="Login__input-container">
         <input
           type="password"
           name="password"
@@ -36,4 +36,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default Login;

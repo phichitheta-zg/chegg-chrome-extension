@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import ExamplePage from './pages/ExamplePage/ExamplePage';
+import Example from '../Example/Example';
 
 require('dotenv').config();
 
 function App() {
   return (
     <div className="App">
-      <ExamplePage />
+      <Example />
     </div>
   );
 }

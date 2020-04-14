@@ -1,4 +1,4 @@
-.ExamplePage__container {
+.Example__container {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -10,7 +10,7 @@
   margin: 0.2em;
 }
 
-.ExamplePage__flex {
+.Example__flex {
   display: flex;
   flex: 1;
   justify-content: center;
