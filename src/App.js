@@ -1,29 +1,12 @@
-import React from 'react';
-import './App.css';
-import Home from './screens/Home';
+import React, { Component } from "react";
+import Routing from "./components/Routing";
 
-require('dotenv').config();
-
-function App() {
-  return (
-    <div className="App" style={{ height: 180, width: 360 }}>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to unload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <Home />
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <>
+        <Routing />
+      </>
+    );
+  }
 }
-
-export default App;
