@@ -1,13 +1,10 @@
-.LoginPage__container {
+.Login__container {
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 15em;
-  width: 25em;
-  padding: 0.5em;
-  margin: 0.2em;
+  
 }
 
 .Login__flex,
@@ -22,8 +19,7 @@
 .Login__login-logo {
   flex: 5;
   object-fit: contain;
-  height: 9em;
-  padding: 0.3em;
+   background-color: aliceblue;
 }
 
 .Login__input-container {
