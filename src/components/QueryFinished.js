@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FormControl,
-  FormGroup,
-  Button,
-  Image,
-  FormLabel,
-} from "react-bootstrap";
+import { Button, Image } from "react-bootstrap";
 import PCTLogo from "../assets/PCT-logo.png";
 import styled from "styled-components";
 

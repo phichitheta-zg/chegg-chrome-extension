@@ -5,13 +5,7 @@
 
 import React from "react";
 import styled from "styled-components";
-import {
-  FormControl,
-  FormGroup,
-  Button,
-  FormLabel,
-  Image,
-} from "react-bootstrap";
+import { FormControl, FormGroup, Button, Image } from "react-bootstrap";
 import PCTLogo from "../assets/PCT-logo.png";
 
 const Wrapper = styled.div`
@@ -24,8 +18,6 @@ const Wrapper = styled.div`
 const Title = styled.h2`
   margin: 10;
 `;
-
-const auth = () => {};
 
 export default function Login() {
   return (

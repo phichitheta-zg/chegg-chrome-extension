@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Login from "./Login.js";
+import Login from "./Login";
 import UrlQuery from "./UrlQuery";
 import QueryFinished from "./QueryFinished";
 import NoMatch from "./NoMatch";
