@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.css';
 import Example from '../Example/Example';
-import Login from "../Login/Login"
-
-require('dotenv').config();
+import Login from '../Login/Login';
+import { withFirebase } from '../../utils/Firebase';
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Example />
     </div>
   );
 }
 
-export default App;
+export default withFirebase(App);
