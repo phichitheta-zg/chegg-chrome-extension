@@ -6,12 +6,17 @@ function Example(props) {
   const { firebase } = props;
   const [username, setUsername] = useState();
   const [password, setPassword] = useState();
+  const [error, setError] = useState();
 
-  function handleSubmit() {
-    console.log(username);
-    console.log(password);
-    console.log(props);
-    firebase.doCreateUserWithEmailAndPassword(username, password);
+  function handleLogIn() {
+    firebase.doSignInWithEmailAndPassword(username, password).then(() => {
+      setError(null);
+      // console.log("log in success!");
+    }).catch(error => setError(error));
+  }
+
+  function handleLogOut() {
+    firebase.doSignOut()
   }
 
   return (
@@ -53,7 +58,11 @@ function Example(props) {
           }}
         />
       </div>
-      <button onClick={handleSubmit}> Log in! </button>
+      <button onClick={handleLogIn}> Log in! </button>
+      <button onClick={handleLogOut}> Log Out! </button>
+      <div className="h6 text-muted mt-3">
+        {error && <p>{error.message}</p>}
+      </div>
     </div>
   );
 }

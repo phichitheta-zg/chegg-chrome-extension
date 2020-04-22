@@ -2,7 +2,7 @@ import app from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 
-const firebaseConfig = {
+const config = {
     apiKey: process.env.REACT_APP_API_KEY,
     authDomain: process.env.REACT_APP_AUTH_DOMAIN,
     databaseURL: process.env.REACT_APP_DATABASE_URL,
@@ -15,10 +15,12 @@ const firebaseConfig = {
 
 class Firebase {
     constructor() {
-        app.initializeApp(firebaseConfig);
+        app.initializeApp(config);
 
         this.auth = app.auth();
         this.db = app.firestore();
+        this.user = null; // TODO: store user information more securely through cookies
+        this.initAuthUserListener();
     }
 
     doCreateUserWithEmailAndPassword = (email, password) =>
@@ -28,6 +30,20 @@ class Firebase {
         this.auth.signInWithEmailAndPassword(email, password);
 
     doSignOut = () => this.auth.signOut();
+
+    initAuthUserListener = () =>
+        this.auth.onAuthStateChanged(authUser => {
+            if (authUser) {
+                // Store user information on log in
+                this.user = {
+                    uid: authUser.uid,
+                    email: authUser.email
+                }
+            } else {
+                // Clear user information on log out
+                this.user = null;
+            }
+        });
 }
 
 export default Firebase;
