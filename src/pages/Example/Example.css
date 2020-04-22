@@ -1,4 +1,4 @@
-.LoginPage__container {
+.Example__container {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -10,22 +10,9 @@
   margin: 0.2em;
 }
 
-.LoginPage__flex,
-.LoginPage__input-container,
-.LoginPage__login-logo {
+.Example__flex {
   display: flex;
   flex: 1;
   justify-content: center;
   align-items: center;
-}
-
-.LoginPage__login-logo {
-  flex: 5;
-  object-fit: contain;
-  height: 9em;
-  padding: 0.3em;
-}
-
-.LoginPage__input-container {
-  flex: 1.5;
 }

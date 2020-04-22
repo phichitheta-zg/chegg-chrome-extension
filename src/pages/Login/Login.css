@@ -1,0 +1,27 @@
+.Login__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Login__flex,
+.Login__input-container,
+.Login__login-logo {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login__login-logo {
+  flex: 5;
+  object-fit: contain;
+   background-color: aliceblue;
+}
+
+.Login__input-container {
+  flex: 1.5;
+}

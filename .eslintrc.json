@@ -3,7 +3,8 @@
     "browser": true,
     "es6": true
   },
-  "extends": ["airbnb"],
+  "extends": "airbnb",
+  "parser": "babel-eslint",
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -15,10 +16,19 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react"],
-  "ignorePatterns": ["serviceWorker.js"],
+  "plugins": [
+    "react"
+  ],
+  "ignorePatterns": [
+    "serviceWorker.js"
+  ],
   "rules": {
     "react/jsx-filename-extension": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "max-len": "warn",
+    "no-unused-vars": "warn"
   }
 }
