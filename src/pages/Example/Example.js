@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { withFirebase } from '../../utils/Firebase';
 import './Example.css';
 
@@ -12,11 +12,11 @@ function Example(props) {
     firebase.doSignInWithEmailAndPassword(username, password).then(() => {
       setError(null);
       // console.log("log in success!");
-    }).catch(error => setError(error));
+    }).catch((err) => setError(err));
   }
 
   function handleLogOut() {
-    firebase.doSignOut()
+    firebase.doSignOut();
   }
 
   return (
@@ -58,8 +58,8 @@ function Example(props) {
           }}
         />
       </div>
-      <button onClick={handleLogIn}> Log in! </button>
-      <button onClick={handleLogOut}> Log Out! </button>
+      <button type="submit" onClick={handleLogIn}> Log in! </button>
+      <button type="submit" onClick={handleLogOut}> Log Out! </button>
       <div className="h6 text-muted mt-3">
         {error && <p>{error.message}</p>}
       </div>

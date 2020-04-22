@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Example from '../Example/Example';
-import Login from '../Login/Login';
 import { withFirebase } from '../../utils/Firebase';
 
 function App() {
