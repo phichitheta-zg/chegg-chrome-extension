@@ -3,9 +3,7 @@
     "browser": true,
     "es6": true
   },
-  "extends": [
-    "airbnb"
-  ],
+  "extends": "airbnb",
   "parser": "babel-eslint",
   "globals": {
     "Atomics": "readonly",
@@ -28,6 +26,8 @@
     "react/jsx-filename-extension": "off",
     "react/prop-types": "off",
     "react/jsx-props-no-spreading": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
     "max-len": "warn",
     "no-unused-vars": "warn"
   }
