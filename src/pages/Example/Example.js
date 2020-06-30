@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { withFirebase } from '../../utils/Firebase';
+import { withFirebase } from '../../utils/firebase';
 import './Example.css';
 
 function Example(props) {
